@@ -2,7 +2,7 @@
 
 Status: an early prototype; work in progress
 
-The data is read through ./src/utils/words.js file. As of now, it's a primitive static string.
+The data is read through ./src/utils/words.js file. As of now, it's based on two primitive static strings, and only contains around 715 lexicons, which consists of codes from "a" to "zz".
 
 ## TODOs
 
