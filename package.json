@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "faker": "^5.1.0",
+    "npm-watch": "^0.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
@@ -15,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+	"watch": "npm-watch"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +37,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+	"watch": {
+		"build":{
+			"patterns": [
+			"src"
+			],
+			"extensions": "js,jsx,css"
+		}
+	}
 }
